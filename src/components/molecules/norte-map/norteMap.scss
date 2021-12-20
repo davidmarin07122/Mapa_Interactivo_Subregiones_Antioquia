@@ -1,0 +1,196 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.norte-map {
+  max-height: 450px;
+
+  .cls-1 {
+    fill: none;
+  }
+  .cls-2 {
+    isolation: isolate;
+  }
+  .cls-3 {
+    fill: #bf9f93;
+  }
+  .cls-3,
+  .cls-4 {
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+  }
+  .cls-4,
+  .cls-7 {
+    fill: #73564c;
+  }
+  .cls-5 {
+    opacity: 0.55;
+  }
+  .cls-6 {
+    fill: #fff;
+  }
+  .cls-8 {
+    clip-path: url(#clip-path);
+  }
+  .cls-9 {
+    fill: #9fd062;
+  }
+  .cls-10 {
+    fill: #73a137;
+  }
+  .cls-11 {
+    fill: #af7bff;
+  }
+  .cls-12 {
+    fill: #a061ff;
+  }
+  .cls-13 {
+    fill: #ffc450;
+  }
+  .cls-14 {
+    fill: #b88aff;
+  }
+  .cls-15 {
+    fill: #ba5fdb;
+  }
+  .cls-16 {
+    fill: #cb7ae9;
+  }
+  .cls-17 {
+    fill: #ecbf66;
+  }
+  .cls-18 {
+    fill: #e09c1a;
+  }
+  .cls-19 {
+    fill: #e095fc;
+  }
+  .cls-20 {
+    fill: #fefefe;
+  }
+  .cls-21 {
+    clip-path: url(#clip-path-2);
+  }
+  .cls-22 {
+    fill: #8c8c8c;
+  }
+  .cls-23 {
+    fill: #77787a;
+  }
+  .cls-24 {
+    fill: #a2a2a2;
+  }
+  .cls-25 {
+    fill: #dce2e1;
+  }
+  .cls-26 {
+    fill: #aa7d4b;
+  }
+  .cls-27 {
+    fill: #5e5e5e;
+  }
+  .cls-28 {
+    fill: #abacaf;
+  }
+  .cls-29 {
+    fill: #c0c0bf;
+  }
+  .cls-30 {
+    fill: #7b808c;
+  }
+  .cls-31 {
+    fill: #797979;
+  }
+  .cls-32 {
+    fill: #b1b3b8;
+  }
+  .cls-33 {
+    fill: #cdd3d2;
+  }
+  .cls-34 {
+    fill: #eaefee;
+  }
+  .cls-35 {
+    fill: #fdffff;
+  }
+  .cls-36 {
+    fill: #f3dd8e;
+  }
+  .cls-37 {
+    fill: #cbb672;
+  }
+  .cls-38 {
+    fill: #e1c97d;
+  }
+  .cls-39 {
+    fill: #fae69d;
+  }
+  .cls-40,
+  .cls-41 {
+    fill: #adc45f;
+  }
+  .cls-41 {
+    opacity: 0.3;
+  }
+  .cls-41,
+  .cls-44,
+  .cls-48,
+  .cls-53 {
+    mix-blend-mode: multiply;
+  }
+  .cls-42 {
+    fill: #ecef9d;
+  }
+  .cls-43,
+  .cls-44 {
+    fill: #dadf66;
+  }
+  .cls-44 {
+    opacity: 0.5;
+  }
+  .cls-45 {
+    fill: #f7f8d4;
+  }
+  .cls-46 {
+    clip-path: url(#clip-path-3);
+  }
+  .cls-47,
+  .cls-48,
+  .cls-53 {
+    fill: #ffac9d;
+  }
+  .cls-48 {
+    opacity: 0.31;
+  }
+  .cls-49 {
+    fill: #cee0ea;
+  }
+  .cls-50 {
+    fill: #f2f0f0;
+  }
+  .cls-51 {
+    fill: #17173f;
+  }
+  .cls-52 {
+    clip-path: url(#clip-path-4);
+  }
+  .cls-53 {
+    opacity: 0.27;
+  }
+  .cls-54 {
+    fill: #cc887f;
+  }
+  .cls-55 {
+    fill: #352c38;
+  }
+  .cls-56 {
+    fill: #603328;
+  }
+  .cls-57 {
+    fill: #673a2f;
+  }
+  .cls-58 {
+    fill: #3d3d3d;
+  }
+}

@@ -1,0 +1,51 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.m-main-description {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1% 0 10%;
+
+  @include from($large) {
+    padding: 0 1% 20px 0%;
+  }
+
+  &__title {
+    color: $magenta;
+    font-size: size(30);
+    justify-self: flex-end;
+    text-transform: uppercase;
+    font-family: $roboto-bold;
+    padding-bottom: 30px;
+    padding-top: 8%;
+
+    @include from($large) {
+      padding-bottom: 15px;
+    }
+  }
+
+  &__paragraph {
+    justify-self: flex-end;
+    font-family: $roboto-regular;
+    font-size: size(19);
+    line-height: 1.4;
+  }
+
+  &__container {
+    height: 55%;
+    margin-top: 5%;
+
+    @include from($large) {
+      display: none;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 80%;
+    object-fit: fill;
+  }
+}

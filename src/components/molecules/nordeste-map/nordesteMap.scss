@@ -1,0 +1,182 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.nordeste-map {
+  max-height: 450px;
+
+  .cls-1,
+  .cls-4 {
+    fill: none;
+  }
+  .cls-2 {
+    isolation: isolate;
+  }
+  .cls-3 {
+    fill: #8da658;
+  }
+  .cls-4 {
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+  }
+  .cls-5 {
+    fill: #a3bf65;
+    opacity: 0.8;
+  }
+  .cls-6 {
+    fill: #3d3d3d;
+  }
+  .cls-7 {
+    opacity: 0.55;
+  }
+  .cls-8 {
+    fill: #fff;
+  }
+  .cls-9 {
+    clip-path: url(#clip-path);
+  }
+  .cls-10,
+  .cls-11 {
+    fill: #e49273;
+  }
+  .cls-11,
+  .cls-18 {
+    opacity: 0.6;
+  }
+  .cls-11,
+  .cls-18,
+  .cls-47,
+  .cls-52,
+  .cls-53 {
+    mix-blend-mode: multiply;
+  }
+  .cls-12 {
+    fill: #b70051;
+  }
+  .cls-13 {
+    fill: #d54588;
+  }
+  .cls-14 {
+    fill: #ed5c9d;
+  }
+  .cls-15 {
+    fill: #cc7e66;
+  }
+  .cls-16 {
+    fill: #2b1200;
+  }
+  .cls-17 {
+    fill: #1e0e00;
+  }
+  .cls-19 {
+    fill: #352c38;
+  }
+  .cls-20 {
+    clip-path: url(#clip-path-2);
+  }
+  .cls-21 {
+    fill: #1e0e00;
+  }
+  .cls-22 {
+    fill: #1e0e00;
+  }
+  .cls-23 {
+    fill: #ffcb86;
+  }
+  .cls-24 {
+    fill: #3fbf46;
+  }
+  .cls-25 {
+    fill: #cc7a0a;
+  }
+  .cls-26 {
+    fill: #f89f26;
+  }
+  .cls-27 {
+    fill: #ffaf42;
+  }
+  .cls-28 {
+    fill: #db8816;
+  }
+  .cls-29 {
+    fill: #cc2e0a;
+  }
+  .cls-30 {
+    fill: #f84d26;
+  }
+  .cls-31 {
+    fill: #ff6542;
+  }
+  .cls-32 {
+    fill: #db3b16;
+  }
+  .cls-33 {
+    fill: #0a5bcc;
+  }
+  .cls-34 {
+    fill: #267ef8;
+  }
+  .cls-35 {
+    fill: #4291ff;
+  }
+  .cls-36 {
+    fill: #005bdb;
+  }
+  .cls-37 {
+    fill: #9d4108;
+  }
+  .cls-38 {
+    fill: #c9601f;
+  }
+  .cls-39 {
+    fill: #d07136;
+  }
+  .cls-40 {
+    fill: #ac4d11;
+  }
+  .cls-41 {
+    fill: #1a2e35;
+  }
+  .cls-42 {
+    fill: #375a64;
+  }
+  .cls-43 {
+    fill: #ff735d;
+  }
+  .cls-44 {
+    clip-path: url(#clip-path-3);
+  }
+  .cls-45 {
+    fill: #ffdeff;
+  }
+  .cls-46 {
+    fill: #ffbfff;
+  }
+  .cls-47 {
+    fill: #ff6883;
+  }
+  .cls-47,
+  .cls-52,
+  .cls-53 {
+    opacity: 0.5;
+  }
+  .cls-48 {
+    fill: #ff679b;
+  }
+  .cls-49 {
+    fill: #ffbf00;
+  }
+  .cls-50 {
+    fill: #f4d5f6;
+  }
+  .cls-51 {
+    fill: #bf8063;
+  }
+  .cls-52 {
+    fill: #dcb68d;
+  }
+  .cls-53 {
+    fill: #c09873;
+  }
+}

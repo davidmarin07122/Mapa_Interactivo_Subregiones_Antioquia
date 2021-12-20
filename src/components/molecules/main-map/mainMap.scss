@@ -1,0 +1,119 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.m-main-map {
+  height: 100%;
+  width: 100%;
+  max-height: 450px;
+
+  &__bajo-cauca {
+    fill: #bc8b48;
+  }
+
+  &__norte {
+    fill: #73564c;
+  }
+
+  &__occidente {
+    fill: #e6a144;
+  }
+
+  &__uraba {
+    fill: #ffce33;
+  }
+
+  &__nordeste {
+    fill: #8da658;
+  }
+
+  &__magdalena-medio {
+    fill: #ef9f38;
+  }
+
+  &__suroeste {
+    fill: #8c4303;
+  }
+
+  &__oriente {
+    fill: #9ed959;
+  }
+
+  &__valle-aburra {
+    fill: #dc4b00;
+  }
+
+  &__bajo-cauca,
+  &__norte,
+  &__occidente,
+  &__uraba,
+  &__nordeste,
+  &__magdalena-medio,
+  &__suroeste,
+  &__oriente,
+  &__valle-aburra {
+    cursor: pointer;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-width: 1.5px;
+  }
+
+  &__bajo-cauca:hover,
+  &__norte:hover,
+  &__occidente:hover,
+  &__uraba:hover,
+  &__nordeste:hover,
+  &__magdalena-medio:hover,
+  &__suroeste:hover,
+  &__oriente:hover,
+  &__valle-aburra:hover {
+    opacity: 0.8;
+  }
+}
+
+.cls-1 {
+  opacity: 0.73;
+}
+.cls-2 {
+  fill: #d3d3d3;
+}
+.cls-3 {
+  fill: #f2f2f2;
+}
+.cls-4 {
+  fill: #c6ecff;
+}
+.cls-5 {
+  opacity: 0.15;
+}
+.cls-6 {
+  fill: #494949;
+}
+.cls-7 {
+  fill: none;
+  stroke: #6d6d6d;
+}
+
+.cls-17,
+.cls-21 {
+  font-size: 18.11px;
+  font-family: HelveticaNeueLTPro-Cn, Helvetica Neue LT Pro;
+  font-family: $roboto-regular;
+}
+.cls-17,
+.cls-18,
+.cls-21 {
+  fill: #fff;
+}
+.cls-17,
+.cls-22 {
+  letter-spacing: -0.01em;
+}
+.cls-19 {
+  letter-spacing: -0.04em;
+}
+.cls-20 {
+  letter-spacing: -0.01em;
+}
+.cls-21 {
+  letter-spacing: -0.06em;
+}

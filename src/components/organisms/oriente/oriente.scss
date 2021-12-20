@@ -1,0 +1,67 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.oriente {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  @include from($large) {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  &__info {
+    width: 60%;
+    padding-top: 30px;
+    padding: 30px 20px 0 20px;
+
+    @include from($large) {
+      width: 100%;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    height: 13%;
+    max-height: 80px;
+
+    @include from($large) {
+      width: 60%;
+      height: 60px;
+    }
+  }
+
+  &__image {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__description {
+    padding: 3% 0;
+    font-family: $roboto-regular;
+    font-size: size(18);
+    line-height: 1.5;
+
+    @include from($large) {
+      padding: 8% 0;
+    }
+  }
+
+  &__carousel {
+    height: 250px;
+  }
+
+  &__map {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include from($large) {
+      display: none;
+    }
+  }
+}

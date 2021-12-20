@@ -1,0 +1,183 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.suroeste-map {
+  max-height: 450px;
+
+  .cls-1,
+  .cls-15,
+  .cls-34,
+  .cls-4,
+  .cls-41 {
+    fill: none;
+  }
+  .cls-2 {
+    fill: #d9ab73;
+  }
+  .cls-2,
+  .cls-4 {
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+  }
+  .cls-3 {
+    fill: #8c4303;
+    cursor: pointer;
+  }
+  .cls-5 {
+    fill: #3d3d3d;
+  }
+  .cls-6 {
+    opacity: 0.55;
+  }
+  .cls-7 {
+    fill: #fff;
+    cursor: pointer;
+  }
+  .cls-8 {
+    clip-path: url(#clip-path);
+  }
+  .cls-9 {
+    fill: #f1b591;
+  }
+  .cls-10 {
+    fill: #dfa584;
+  }
+  .cls-11 {
+    fill: #99acda;
+  }
+  .cls-12 {
+    fill: #c6b9ae;
+  }
+  .cls-13 {
+    fill: #616790;
+  }
+  .cls-14,
+  .cls-19 {
+    fill: #d6cdc8;
+  }
+  .cls-14,
+  .cls-18 {
+    opacity: 0.58;
+  }
+  .cls-15,
+  .cls-16 {
+    stroke: #765e69;
+    stroke-miterlimit: 10;
+    stroke-width: 0.79px;
+  }
+  .cls-16 {
+    fill: #a9c7db;
+  }
+  .cls-17 {
+    fill: #a06653;
+  }
+  .cls-20 {
+    fill: #352c38;
+  }
+  .cls-21 {
+    clip-path: url(#clip-path-2);
+  }
+  .cls-22 {
+    fill: #d4ac79;
+  }
+  .cls-23 {
+    fill: #c79961;
+  }
+  .cls-24 {
+    fill: #ebcda0;
+  }
+  .cls-25 {
+    fill: #deba85;
+  }
+  .cls-26 {
+    fill: #1d1d1b;
+    opacity: 0.1;
+  }
+  .cls-27 {
+    fill: #ededed;
+  }
+  .cls-28,
+  .cls-30,
+  .cls-37 {
+    opacity: 0.9;
+  }
+  .cls-29 {
+    fill: #ece2ff;
+  }
+  .cls-30 {
+    fill: #ccb4ff;
+  }
+  .cls-31 {
+    fill: #d7c3ff;
+  }
+  .cls-32 {
+    fill: #e2d4ff;
+  }
+  .cls-33 {
+    fill: #f4eeff;
+  }
+  .cls-34 {
+    stroke: #e0d0ff;
+  }
+  .cls-34,
+  .cls-41 {
+    stroke-width: 0;
+  }
+  .cls-35 {
+    fill: #fbfaff;
+  }
+  .cls-36 {
+    fill: #fed0d9;
+  }
+  .cls-37 {
+    fill: #fd839a;
+  }
+  .cls-38 {
+    fill: #fd9daf;
+  }
+  .cls-39 {
+    fill: #feb8c5;
+  }
+  .cls-40 {
+    fill: #ffe3e8;
+  }
+  .cls-41 {
+    stroke: #feb2c0;
+  }
+  .cls-42 {
+    fill: #fff6f8;
+  }
+  .cls-43 {
+    fill: #deaa78;
+  }
+  .cls-44 {
+    fill: #e6b07c;
+  }
+  .cls-45 {
+    fill: #f5c08c;
+  }
+  .cls-46 {
+    fill: #3c3c3b;
+  }
+  .cls-47 {
+    fill: #575756;
+  }
+  .cls-48 {
+    fill: #ffcb86;
+  }
+  .cls-49 {
+    fill: #c6c6c6;
+  }
+  .cls-50 {
+    fill: #f6f6f6;
+    opacity: 0.75;
+  }
+  .cls-51 {
+    fill: #ffcf9f;
+  }
+  .cls-52 {
+    fill: #962267;
+  }
+}
